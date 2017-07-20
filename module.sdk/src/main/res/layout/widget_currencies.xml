@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_bg">
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/response_error"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/rates_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/info_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.bpc.modulesdk.ui.widgets.currencyrateswidget.nameswidget.CurrencyNamesWidget
+                android:id="@+id/currency_names_element"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/justaview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center">
+
+                <include
+                    android:id="@+id/rates_info"
+                    layout="@layout/widget_rates_item" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/update_rates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:contentDescription="update_data"
+            android:duplicateParentState="true"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_loop_black_24dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/last_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/last_update"
+        tools:text="Последнее обновление: 15.05.2015" />
+
+</LinearLayout>

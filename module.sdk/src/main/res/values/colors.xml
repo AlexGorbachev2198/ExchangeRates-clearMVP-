@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">@color/violet</color>
+    <color name="colorPrimaryDark">@color/violetDark</color>
+    <color name="colorAccent">@color/yellow_light</color>-->
+
+    <color name="colorPrimary">@color/purple</color>
+    <color name="colorPrimaryDark">@color/dark_purple</color>
+    <!--<color name="colorPrimaryDark">@color/sapphirine</color>-->
+    <!--<color name="colorAccent">@color/blue_bright</color>-->
+    <color name="colorAccent">@color/purple</color>
+
+    <color name="colorLoginError">@color/light_purple</color>
+    <color name="colorLoginElement">@color/white</color>
+    <color name="colorIcon">@color/grey</color>
+
+
+    <color name="transparentPrimary">#504052B5</color>
+    <color name="tabbarcolor">@color/black</color>
+
+    <!--<color name="colorButtonDark">@color/violetDark</color>-->
+    <color name="colorButtonDark">@color/colorPrimaryDark</color>
+    <color name="colorTextLight">@color/white</color>
+
+    <color name="bg">#FAFAFA</color>
+
+    <color name="custom_blue_aqua">#0a5678</color>
+    <color name="sapphirine">#073c54</color>
+    <color name="blue_bright">#4ebef0</color>
+
+    <color name="violet">#4052B5</color>
+    <color name="yellow_light">#fdd835</color>
+    <color name="violetDark">#1C257F</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="purple">#A53C6F</color>
+    <color name="dark_purple">#5B0B3D</color>
+
+    <color name="background_card_view">@color/white</color>
+    <color name="background_card_view_pressed">#cdcdcd</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="swipe_refresh_color_scheme1">#105da5</color>
+    <color name="swipe_refresh_color_scheme2">#27743d</color>
+    <color name="swipe_refresh_color_scheme3">#105da5</color>
+    <color name="swipe_refresh_color_scheme4">#914141</color>
+
+
+
+
+
+
+
+
+
+    <color name="common_chart_axis_text">@android:color/black</color>
+    <color name="common_chart_grid">#dddddd</color>
+
+    <color name="credit_payments_schedule_bar_primary">#2080d0</color>
+    <color name="credit_payments_schedule_bar_secondary">#d02020</color>
+    <color name="credit_payments_schedule_highlight">#ffffff</color>
+
+    <color name="camera_button_tint_color">#BDBDBD</color>
+
+    <!-- Цвета определяющие стил приложения. В названии должно определяться назначение цвета и не ассоциироваться с самим цветом. -->
+    <color name="main_color">@color/custom_blue_aqua</color>
+    <color name="main_color_dark">@color/sapphirine</color>
+
+    <color name="background_main">@color/grey_bg</color>
+    <color name="background_enter_cap">#295a80</color>
+    <color name="background_card_view_selected_light">@color/grey_500</color>
+    <color name="background_card_view_selected">@color/grey_600</color>
+    <color name="background_card_view_selected_pressed">@color/light_grey</color>
+    <color name="background_button_continue_enter">@color/white</color>
+
+    <color name="text_color_main">#424242</color>
+    <color name="text_color_main_sub">#6c6c6c</color>
+    <color name="text_color_main_highlighted">#000</color>
+    <color name="text_color_main_error">@color/bright_red</color>
+    <color name="text_color_main_link">@color/ios_login_blue</color>
+
+    <color name="text_color_enter">@color/white</color>
+    <color name="text_color_enter_button">@color/white</color>
+    <color name="text_color_enter_hint">@color/grey_300</color>
+    <color name="text_color_menu_main">@color/white</color>
+    <color name="text_color_continue_button">@color/white</color>
+    <color name="text_color_offer_title">@color/black</color>
+    <color name="text_color_offer_message">@color/white</color>
+
+    <color name="dot_color_point_status_open">@color/atm_green</color>
+    <color name="dot_color_point_status_close">@color/bright_red</color>
+    <color name="dot_color_point_status_unknown">@color/grey_500</color>
+
+    <color name="segmented_control_selected_color">#ff33b5e5</color>
+    <color name="segmented_control_unselected_color">#e0e0e0</color>
+
+    <color name="progress_color_login_00">#00ffffff</color>
+    <color name="progress_color_login_50">#80ffffff</color>
+    <color name="progress_color_login_100">#FFffffff</color>
+    <color name="progress_color_main_00">#00ffffff</color>
+    <color name="progress_color_main_50">#80ffffff</color>
+    <color name="progress_color_main_100">#FFffffff</color>
+
+</resources>

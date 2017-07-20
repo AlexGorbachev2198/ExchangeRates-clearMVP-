@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735538012290",
+    "firebase_url": "https://amk-ab-client-mobile.firebaseio.com",
+    "project_id": "amk-ab-client-mobile",
+    "storage_bucket": "amk-ab-client-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735538012290:android:b3cacd0398d3a144",
+        "android_client_info": {
+          "package_name": "android.client.agencybanking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735538012290-o1hi564ir5ad93dkhnmg1d9b95n3i5cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.client.agencybanking",
+            "certificate_hash": "4d0dfd6a61e5ea1bc72f381b514845dcfafd6d3d"
+          }
+        },
+        {
+          "client_id": "735538012290-vqvphc7f4ok17mcf5m5rurikh64o7va2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTnfuaKwTkwaqcMMyAVCSwrfMG502-QL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735538012290-vqvphc7f4ok17mcf5m5rurikh64o7va2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

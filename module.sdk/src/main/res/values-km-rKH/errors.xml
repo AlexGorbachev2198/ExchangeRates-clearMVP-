@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error">Error</string>
+
+    <string name="error_empty_field">ត្រូវបំពេញចន្លោះ!</string>
+
+    <string name="error_no_internet">គ្មានអ៊ីនធើណេតភ្ជាប់</string>
+    <string name="error_no_connection">ការភ្ជាប់ប្រព័ន្ធបរាជ័យ</string>
+    <string name="error_common_rest">មានចំណុចខុស</string>
+    <string name="error_device_binding_excpected">ការបញ្ជាក់នៃការភ្ជាប់ឧបករណ៍</string>
+
+    <string name="error_device_binding_rejected">ឧបករណ៍ភ្ជាប់ត្រូវបានច្រានចោល</string>
+    <string name="error_invalid_login_pass">ការបញ្ចូល និងលេខសម្ងាត់អស់សុពលភាព សូមព្យាយាមម្តងទៀត</string>
+    <string name="error_user_locked">ឈ្មោះអ្នកប្រើប្រាស់បានជាប់សោរ</string>
+    <string name="error_card_security">កូដសុវត្ថិភាពររបស់កាតមិនត្រឹមត្រូវ</string>
+    <string name="error_internal_server">ប្រព័ន្ធកំពុងមានបញ្ហា</string>
+    <string name="error_not_enough_money">សាច់ប្រាក់មិនគ្រប់គ្រាន់</string>
+    <string name="error_invalid_access_token">រយៈពេលដំណើរការផុតកំណត់!</string>
+    <string name="error_no_data_found">គ្មានទិន្នន័យត្រូវបានរកឃើញ</string>
+    <string name="error_invalid_card_status">កាតអសុពលភាព</string>
+    <string name="error_no_data">គ្មានទិន្នន័យ</string>
+
+    <string name="error_different_passwords">លេខសម្ងាត់មិនត្រូវគ្នា</string>
+    <string name="error_geolocation_disabled">អ្នកត្រូវបើកទីតាំងភូមិសាស្រ្តដើម្បីបន្ត</string>?
+    <string name="error_maximum_binded_device_number_reached">ចំនួនឧបករណ៍ភ្ជាប់របស់ភ្នាក់ងារលើសចំនួនកំណត់</string>
+
+    <string name="error_location_restricted">អ្នកមិនអាចទទួលបានសមតុល្យកាតពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_cashwithdrawal">អ្នកមិនអាចបន្តដកប្រាក់ពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_customer_new_acc">អ្នកមិនអាចបន្តបង្កើតគណនីថ្មីពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_new_customer">អ្នកមិនអាចបន្តបង្កើតអតិថិជនថ្មីពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_bill_payment_from_account">អ្នកមិនអាចបន្តទូទាត់វិក្កយបត្រពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_cashdeposit">អ្នកមិនអាចបន្តដាក់ប្រាក់ពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_account_to_cash">អ្នកមិនអាចបន្តផ្ទេរប្រាក់ពីគណនីទៅសាច់ប្រាក់ពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_accs_transfer">អ្នកមិនអាចបន្តផ្ទេរប្រាក់ពីគណនីទៅគណនីពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_cash_to_acc_transfer">អ្នកមិនអាចបន្តផ្ទេរប្រាក់ពីសាច់ប្រាក់ទៅគណនីពីទីតាំងនេះ</string>
+    <string name="error_location_restricted_cash_to_cash_transfer">អ្នកមិនអាចបន្តផ្ទេរប្រាក់ពីសាច់ប្រាក់ទៅសាច់ប្រាក់ពីទីតាំងនេះ</string>
+    <string name="error_no_location_provided">ទិន្នន័យទីតាំងមិនបានបញ្ជូនចេញ</string>
+    <string name="error_transaction_limit_exceeded">ប្រតិបត្តិការត្រូវបានច្រានចោលព្រោះលើសដែនកំណត់</string>
+
+    <string name="error_no_camera">សុំទោស ទូរស័ព្ទរបស់អ្នកគ្មានកាមេរ៉ា!</string>
+    <string name="error_no_front_camera_found">គ្មានកាមេរ៉ាមុខ!</string>
+    <string name="error_no_back_camera_found">គ្មានកាមេរ៉ាក្រោយ!</string>
+    <string name="error_single_camera">សុំទោស ទូរស័ព្ទរបស់អ្នកមានកាមេរ៉ាតែមួយ!</string>
+
+    <string name="error_no_digits_in_pw">លេខសម្ងាត់មិនត្រូវខ្ទង់</string>
+    <string name="error_equal_passwords">លេខសម្ងាត់ចាស់ និងថ្មីស្មើគ្នា</string>
+    <string name="error_passwords_dont_match">លេខសម្ងាត់មិនត្រូវគ្នា</string>
+
+</resources>

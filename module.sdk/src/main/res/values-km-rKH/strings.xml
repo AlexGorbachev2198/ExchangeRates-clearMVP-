@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" />
+
+    <string name="action_continue">បន្ត</string>
+
+    <string name="bool_true">បាទ/ចាស</string>
+    <string name="bool_false">ទេ</string>
+
+    <string name="navigation_drawer_open">បើក navigation drawer</string>
+    <string name="navigation_drawer_close">បិទ navigation drawer</string>
+    <string name="choose_server">ជ្រើសរើស server</string>
+    <string name="server_address">Server address</string>
+    <string name="demo_mode">ទំរង់ Demo</string>
+    <string name="save">រក្សាទុក</string>
+    <string name="logout_dialog_title">តើអ្នកចង់ចាកចេញ?</string>
+    <string name="server_settings">ការកំណត់ Server</string>
+    <string name="menu_action_logout">ចាកចេញ</string>
+
+    <string name="receiver">អ្នកទទួល:</string>
+    <string name="sender">អ្នកផ្ញើ:</string>
+    <string name="sub_agent">អនុភ្នាក់ងារ:</string>
+    <string name="sub_agent_not_involved">មិនពាក់ព័ន្ធ</string>
+    <string name="code">លេខកូដ:</string>
+    <string name="from_">ពី:</string>
+    <string name="to_">ទៅ:</string>
+    <string name="card_">កាត:</string>
+    <string name="account_type">ប្រភេទគណនី:</string>
+    <string name="supplier">អ្នកផ្គត់ផ្គង់:</string>
+    <string name="customer">អតិថិជន:</string>​
+    <string name="account_currency">រូបិយប័ណ្ណរបស់គណនី:</string>
+    <string name="date_">កាលបរិច្ឆេទ:</string>
+    <string name="balance_">សមតុល្យ:</string>
+    <string name="account_">គណនី:</string>
+    <string name="operation_amount_">ចំនួនទឹកប្រាក់ដែលប្រតិបត្ដិការ:</string>
+    <string name="commission_amount_">កម្រៃជើងសារ:</string>
+    <string name="fee_amount_">កម្រៃសេវា:</string>
+    <string name="total_amount_">ទឹកប្រាក់សរុប:</string>
+    <string name="beg_balance_">សមតុល្យដើមគ្រា:</string>
+    <string name="end_balance_">សមតុល្យចុងគ្រា:</string>
+    <string name="agent_info_">ព័ត៌មានភ្នាក់ងារ:</string>
+    <string name="call_center_phone_">លេខទូរស័ព្ទទំនាក់ទំនង​ CallCenter:</string>
+    <string name="thank_you_">អរគុណ!</string>
+    <string name="failed">បរាជ័យ</string>
+    <string name="success">ជោគជ័យ</string>
+    <string name="denied">បដិសេធ</string>
+    <string name="agent_receipt_title">វិក័យប័ត្រភ្នាក់ងារ</string>
+    <string name="customer_receipt_title">វិក័យប័ត្រអតិថិជន</string>
+    <string name="please_wait">សូមមេត្តារង់ចាំ …</string>>
+
+    <string name="card_number">លេខកាត</string>
+    <string name="card_holder">ម្ចាស់គណនី</string>
+    <string name="pin_block">Pin block</string>
+    <string name="exp_date">កាលបរិច្ឆេទផុតកំណត់</string>
+
+    <string name="selecting_device">ជ្រើសរើសឧបរកណ៍</string>
+    <string name="no_connected_device">មិនមានឧបរកណ៍បានភ្ជាប់ សូមចុចប៊ូតុង \"ភ្ជាប់\" ដើម្បីភ្ជាប់.</string>
+
+    <!--Accounts-->
+
+    <string name="add">បន្ថែម</string>
+    <string name="add_account_title">បន្ថែមគណនី</string>
+    <string name="attention">ប្រយ័ត្ន!</string>
+    <string name="op_confirm_pass_hint">បញ្ចូលលេខសម្ងាត់គណនី</string>
+    <string name="op_confirm_pass">បញ្ចូលលេខសម្ងាត់</string>
+    <string name="op_confirm_otp_title">បញ្ជាក់ប្រតិបត្តិការ</string>
+    <string name="op_confirm_otp_send_button">ទទួលលេខកូដបញ្ជាក់</string>
+    <string name="op_confirm_otp_sended">សារបញ្ជាក់ត្រូវបានបញ្ជូនចេញ</string>
+    <string name="op_confirm_otp_hint">បញ្ចូលកូដបញ្ជាក់</string>
+    <string name="op_confirm_scratch_title">បញ្ចូលលេខកូដកោស %1$s ពីកាតលេខ​ %2$s</string>
+    <string name="op_confirm_scratch_hint">បញ្ចូលលេខកូដកោស</string>
+    <string name="op_confirm_resend_code">ផ្ញើកូដម្តងទៀត</string>
+    <string name="op_confirm_change_type">ផ្លាស់ប្តូរប្រភេទនៃការបញ្ជាក់</string>
+    <string name="op_confirm_change_type_dialog_title">ជ្រើសរើសប្រភេទនៃការបញ្ជាក់</string>
+    <string name="op_confirm_type_otp">លេខសម្ងាត់ម្តង OTP</string>
+    <string name="op_confirm_type_password">លេខសម្ងាត់</string>
+    <string name="op_confirm_type_scratchcode">លេខកូដកោស</string>
+
+    <string name="account_status_perm_block">ផ្អាកដំណើរការ</string>
+    <string name="account_status_temp_block">ផ្អាកដំណើរការ</string>
+    <string name="account_status_valid">ដំណើរការ</string>
+    <string name="status_unknown">មិនស្គាល់</string>
+
+    <string name="rename_account">បញ្ចូលឈ្មោះគណនីថ្មី</string>
+    <string name="rename_card">បញ្ចូលឈ្មោះកាតថ្មី</string>
+
+    <!--Rates widget-->
+    <string name="last_update">Last update: %s</string>​
+    <string name="buy">ទិញ</string>
+    <string name="base">មូលដ្ឋាន</string>
+    <string name="sell">លក់</string>
+    <string name="response_error">បរាជ័យក្នុងការទទួលយកទិន្នន័យពី server</string>
+
+    <string name="checking">បច្ចុប្បន្ន</string>
+    <string name="deposit">សន្សំ</string>
+    <string name="credit">ឥណទាន</string>
+    <string name="unknown">មិនស្គាល់</string>
+
+    <string name="currency_rub">rub.</string>
+    <string name="currency_usd">\u0024</string>
+    <string name="currency_eur">\u20AC</string>
+
+    <string name="customerPass_promt">បញ្ចូលលេខសម្ងាត់ម្ចាស់កាត</string>
+    <string name="select_">ជ្រើសរើស</string>
+    <string name="list_empty">បញ្ជីទទេ</string>
+    <string name="status_">ស្ថានភាព:</string>
+    <string name="filter">ច្រោះ</string>
+    <string name="choose">ជ្រើសរើស</string>
+    <string name="date">កាលបរិច្ឆទ</string>
+    <string name="operation">ប្រតិបត្តិការ</string>
+    <string name="fee">កម្រៃសេវា</string>
+    <string name="start_date">ចាប់ពី</string>​
+    <string name="end_date">ដល់</string>
+    <string name="no_operations">ប្រតិបត្តិការមិនត្រូវបានរកឃើញ</string>
+
+    <string name="message_loading">កំពុងដំណើរ...</string>
+
+    <string name="check_icon">&#xf00c;</string>
+    <string name="camera_button_title">ថតរូប</string>
+
+    <string name="permission_location">ដើម្បីប្រើមុខងារនេះ អ្នកត្រូវអនុញ្ញាត​អោយកម្មវិធីភ្នាក់ងារធនាគារ (Agent Mobile App) អាចស្គាល់ទីតាំងរបស់អ្នក</string>
+    <string name="location_access_message_enable">ដើម្បីបន្ត អ្នកត្រូវបើកទីតាំងដោយប្រើប្រាស់សេវាទីតាំងរបស់ Google នៅលើឧបករណ៍របស់អ្នក</string>
+
+    <string name="error_image_upload">មានចំណុចខុសពេលកំពុងបញ្ជូលរូបថត សូមព្យាយាមម្ដងទៀត</string>
+
+    <string name="error_req_param">ត្រូវបំពេញចន្លោះ</string>
+
+    <!--Receipts-->
+    <string name="customer_receipt">វិក្កយបត្រអតិថិជន</string>
+    <string name="agent_receipt">វិក្កយបត្រភ្នាក់ងារ</string>
+    <string name="title_activity_geo">ទីតាំងកំពុងប្រតិបត្តិការ</string>
+    <string name="new_account">គណនីថ្មី</string>
+    <string name="new_card">កាតថ្មី</string>
+    <string name="new_customer">អតិថិជនថ្មី</string>
+
+    <!--Photo capturing-->
+    <string name="picture_saved">រក្សាទុករូបភាព:</string>
+    <string name="camera_hint">ប្រាកដថារូបភាពច្បាស់</string>
+    <string name="camera_permissions_title">បើកកាមេរ៉ា</string>
+    <string name="camera_permissions_message">ដើម្បីអាចថតរូប អនុញ្ញាតអោយបើកកាមេរ៉ា និងអង្គផ្ទុកទិន្នន័យ</string>
+
+    <!--Image preview-->
+    <string name="done_button_title">រួចរាល់</string>
+
+    <!--Contacts permissions-->
+    <string name="request_read_contacts_permission_rationale_title">លេខទូរស័ព្ទពីតារាងទូស័ព្ទរបស់អ្នក</string>
+    <string name="request_read_contacts_permission_rationale_message">ដើម្បីរើសយកលេខទូរស័ព្ទ អនុញ្ញាតអោយបើកតារាងទូរស័ព្ទបាន</string>
+    <string name="error_unable_get_contacts">មិនអាចរកលេខទូរស័ព្ទពីតារាងលេខទូស័ព្ទ</string>
+
+</resources>

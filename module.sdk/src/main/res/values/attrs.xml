@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomFont">
+        <attr name="font" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ContinueButton">
+        <attr name="label" format="string" />
+        <attr name="state" format="enum">
+            <enum name="disable" value="0" />
+            <enum name="enable" value="1" />
+            <enum name="loading" value="2" />
+        </attr>
+        <attr name="labelStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="small" value="1" />
+        </attr>
+        <attr name="style" format="enum">
+            <enum name="main" value="0" />
+            <enum name="login" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="noEnter" format="boolean" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ParameterLayout">
+        <attr name="is_editable" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MoneySourceView">
+        <attr name="title" format="string" />
+        <attr name="description" format="string" />
+        <attr name="selectable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AmountCurrencyEditText">
+        <attr name="hint" format="string" />
+        <attr name="text" format="string" />
+        <attr name="value_round" format="boolean" />
+        <attr name="ime_option" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="AmmountEditText">
+        <attr name="round" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CardNumberEditText">
+        <attr name="card_number_edit_text_mode" format="enum">
+            <enum name="card_number" value="0" />
+            <enum name="account_number" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

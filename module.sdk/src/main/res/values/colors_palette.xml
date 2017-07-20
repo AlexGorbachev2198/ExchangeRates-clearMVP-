@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Цвета в классическом своём понимании. В название должно быть именно назваине цвета, а не его предназначение -->
+
+    <color name="grey_background">#ffdedde5</color>
+    <!--<color name="grey_bg">#FAFAFA</color>-->
+    <color name="grey_bg">@color/grey_200</color>
+    <color name="green_background">#ff57d46e</color>
+    <color name="green_background_disabled">#7058da73</color>
+    <color name="red_background">#ffD74C4C</color>
+    <color name="red_background_pressed">#ffe14040</color>
+    <color name="red_transparent">#aa914141</color>
+    <color name="grey_text_semitransparent">#506c6c6c</color>
+    <color name="grey_text">#ff6c6c6c</color>
+    <color name="light_grey">#ffcdcdcd</color>
+    <color name="bright_red">#ffD74C4C</color>
+    <color name="red">#ff914141</color>
+    <color name="blue">#105da5</color>
+    <color name="grey">#58585a</color>
+
+    <color name="blue_semitransparent">#50105da5</color>
+    <color name="light_blue">#68abc8</color>
+    <color name="light_blue_pressed">#ff5a97b4</color>
+    <color name="dark_blue">#1f3156</color>
+    <color name="bluegrey_400">#78909c</color>
+    <color name="bluegrey_500">#607d8b</color>
+    <color name="bluegrey_600">#546e7a</color>
+    <color name="grey_light_text">#aaaaaa</color>
+    <color name="grey_transparent_20">#20000000</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="shadow_start">#bbbbbb</color>
+    <color name="shadow_end">#f5f4f4</color>
+    <color name="green">#ff27743d</color>
+    <color name="light_purple">#c57b9f</color>
+    <color name="strawberry">#f55b5b</color>
+    <color name="atm_green">#77e28e</color>
+    <color name="transparent_white_12">#1fffffff</color>
+    <color name="transparent_white_54">#8Affffff</color>
+    <color name="transparent_white_87">#DEffffff</color>
+    <color name="transparent_black_54">#8A000000</color>
+    <color name="divider">#d2d2d6</color>
+    <color name="error_background">#4dff0000</color>
+    <color name="group_table_background">#EFEFF4</color>
+    <color name="ios_login_blue">#007AFF</color>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>       
+    <string name="instal">Set</string>        
+    <string name="cancel">Cancel</string>        
+    <string name="enable">Enable</string>        
+    <string name="disable">Disable</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="continue_">Continue</string>
+    <string name="print_">Print</string>
+    <string name="confirm">Confirm</string>
+    <string name="hide">Hide</string>
+
+</resources>

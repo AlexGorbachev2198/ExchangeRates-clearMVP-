@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_button_continue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/custom_button_continue_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:text="@string/continue_"
+        android:textAllCaps="true"
+        android:textColor="@color/text_color_enter_button"
+        android:textSize="@dimen/text_size_big"
+        android:maxLines="1" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/custom_progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:indeterminateDrawable="@drawable/progress_bar_rotate_login" />
+
+        <ImageView
+            android:id="@+id/custom_continue_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ic_continue_button_arrow_login_30dp" />
+    </FrameLayout>
+</LinearLayout>

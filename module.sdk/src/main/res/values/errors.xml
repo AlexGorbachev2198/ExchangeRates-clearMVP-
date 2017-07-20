@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error">Error</string>
+
+    <string name="error_empty_field">The field must be not empty!</string>
+
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_no_connection">Failed to connect to the server</string>
+    <string name="error_common_rest">Something wrong</string>
+    <string name="error_device_binding_excpected">Confirmation of device binding is excpected</string>
+    <string name="error_device_binding_rejected">Device binding has been rejected</string>
+    <string name="error_invalid_login_pass">Invalid login or password. Please, try again!</string>
+    <string name="error_user_locked">Current user is locked</string>
+    <string name="error_card_security">Incorrect security code for card</string>
+    <string name="error_internal_server">Internal server error</string>
+    <string name="error_unsupported_operation">Unsupported operation</string>
+    <string name="error_not_enough_money">Not enough money</string>
+    <string name="error_invalid_access_token">Session duration has expired!</string>
+    <string name="error_no_data_found">No data found</string>
+    <string name="error_invalid_card_status">Invalid card status</string>
+    <string name="error_no_data">No data</string>
+    <string name="error_new_pin_is_not_required">New pin is not required</string>
+
+    <string name="error_different_passwords">Passwords do not match</string>
+    <string name="error_geolocation_disabled">You need to enable geolocation to continue</string>
+    <string name="error_maximum_binded_device_number_reached">Maximum number of bounded devices for agent is exceeded</string>
+    <string name="error_location_restricted">You can\'t get card balance from this location</string>
+    <string name="error_location_restricted_cashwithdrawal">You can\'t proceed cashwithdrawal from this location</string>
+    <string name="error_location_restricted_customer_new_acc">You can\'t proceed new account creation from this location</string>
+    <string name="error_location_restricted_new_customer">You can\'t proceed new customer creation from this location</string>
+    <string name="error_location_restricted_bill_payment_from_account">You can\'t proceed bill payment from account from this location</string>
+    <string name="error_location_restricted_cashdeposit">You can\'t proceed cashdeposit from this location</string>
+    <string name="error_location_restricted_account_to_cash">You can\'t proceed account to cash from this location</string>
+    <string name="error_location_restricted_accs_transfer">You can\'t proceed transfer between accounts from this location</string>
+    <string name="error_location_restricted_cash_to_acc_transfer">You can\'t proceed transfer cash to account from this location</string>
+    <string name="error_location_restricted_cash_to_cash_transfer">You can\'t proceed transfer cash to cash from this location</string>
+    <string name="error_location_restricted_card_pin_change">You can\'t proceed card pin change from this location</string>
+    <string name="error_location_restricted_loan_from_acc">You can\'t proceed loan payment from account from this location</string>
+    <string name="error_location_restricted_loan_by_cash">You can\'t proceed loan payment by cash from this location</string>
+    <string name="error_no_location_provided">Location data hasn\'t been sent</string>
+    <string name="error_transaction_limit_exceeded">Transaction declined due to limit exceeding.</string>
+
+    <string name="error_no_camera">Sorry, your phone does not have a camera!</string>
+    <string name="error_no_front_camera_found">No front facing camera found.</string>
+    <string name="error_no_back_camera_found">No back facing camera found.</string>
+    <string name="error_single_camera">Sorry, your phone has only one camera!</string>
+
+    <string name="error_no_digits_in_pw">New password does not contain digits</string>
+    <string name="error_equal_passwords">Old and new password are equal</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+
+    <string name="error_photo_is_mandatory">Photo is mandatory</string>
+
+</resources>

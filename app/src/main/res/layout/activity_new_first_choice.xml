@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.Testing.NewFirstChoice">
+
+    <ImageButton
+        android:id="@+id/FromButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription=""
+        app:srcCompat="@drawable/ic_currency_usd"
+        android:layout_below="@+id/Rates_Info"
+        android:layout_alignLeft="@+id/Rates_Info"
+        android:layout_alignStart="@+id/Rates_Info" />
+
+    <ImageButton
+        android:id="@+id/ToButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_currency_usd"
+        android:layout_below="@+id/Rates_Info"
+        android:layout_alignRight="@+id/Rates_Info"
+        android:layout_alignEnd="@+id/Rates_Info" />
+
+    <TextView
+        android:id="@+id/Rates_Info"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:layout_marginTop="184dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/view_input_value_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_value_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom">
+
+            <com.bpc.modulesdk.ui.views.PhoneNumberEditText
+                android:id="@+id/edit_value_phone"
+                style="@style/param_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:inputType="phone"
+                android:scrollHorizontally="false"
+                tools:text="89165555555" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/image_phone_book"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="top"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_addressbook" />
+    </LinearLayout>
+
+
+</merge>

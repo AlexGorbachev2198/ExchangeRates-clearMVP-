@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="servers_addresses">
+        <item>https://t5-web-test2.bt.bpc.in:7002/agencybank/service/</item>
+        <item>https://10.7.4.209:7002/agencybank/service/</item>
+        <item>https://10.7.33.75:7002/agencybank/service/</item>
+        <item>https://t5-web-test2.bt.bpc.in:7002/agencybank/service</item>
+    </string-array>
+</resources>
