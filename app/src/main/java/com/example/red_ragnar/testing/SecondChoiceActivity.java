@@ -15,9 +15,10 @@ import com.example.red_ragnar.testing.R;
 import java.util.List;
 import java.util.Map;
 
-public class SecondChoiceActivity extends AppCompatActivity {
+public class SecondChoiceActivity extends AppCompatActivity implements IView {
     TextView _text;
     Presenter _prsnt;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,16 +34,34 @@ public class SecondChoiceActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        //_prsnt = new Presenter();
-        _text =(TextView) findViewById(R.id.textView2);
-        _text.setText("");
-       if(_prsnt.GetSuccess()) {
-           List<RateInformation> rates = _prsnt.GetAll_Data();
-           for (int i = 0; i < rates.size(); i++) {
-               _text.append(rates.get(i).getName() + " " + rates.get(i).getBase() + " " + rates.get(i).getBuy() + " " + rates.get(i).getSell() + "\n");
-           }
-       }
-       else _text.setText("Error: Connection failure");
+        _text = (TextView) findViewById(R.id.textView2);
+        _prsnt = new Presenter(this);
+        _prsnt.OnViewCreate();
     }
 
+    public void ChangePicFromButton(String rate) {
+    }
+
+    public void ChangePicToButton(String rate) {
+    }
+
+    public void SetText(String data) {
+        _text.setText(data);
+    }
+
+    public String GetUsdFrom() {
+        return "USD";
+    }
+
+    public String GetUsdTo() {
+        return "USD";
+    }
+
+    public void SetUsdFrom(String rate) {
+    }
+
+    public void SetUsdTo(String rate) {
+    }
 }
+
+

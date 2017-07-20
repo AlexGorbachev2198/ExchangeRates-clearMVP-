@@ -18,7 +18,7 @@ import app.Testing.NewFirstChoice;
  */
 public class Presenter implements IPresenter {
     Model _model;
-    NewFirstChoice _view;
+    IView _view;
     List<RateInformation> _rsp;
 
     public Map makeAMap(String rates) {
@@ -39,7 +39,7 @@ public class Presenter implements IPresenter {
         return data;
     }
 
-    public Presenter(NewFirstChoice actionView) {
+    public Presenter(IView actionView) {
         _model = Model.getInstance();
         _rsp = _model.get_data();
         _view = actionView;
@@ -103,6 +103,17 @@ public class Presenter implements IPresenter {
             Map result = makeAMap(_view.GetUsdFrom() + "/" + _view.GetUsdTo());
             buff = "Base" + ": " + result.get("base") + "\n" + "Buy" + ": " + result.get("buy") + "\n" + "Sell" + ": " + result.get("sell") + "\n";
         } else buff = "Error : Connection failure";
+        _view.SetText(buff);
+    }
+
+    public void OnViewCreate() {
+        String buff = "";
+        if(GetSuccess()){
+            for (int i = 0; i < _rsp.size(); i++) {
+                buff += _rsp.get(i).getName() + " " + _rsp.get(i).getBase() + " " + _rsp.get(i).getBuy() + " " + _rsp.get(i).getSell() + "\n";
+            }
+        }
+        else buff = "Error: Connection failure";
         _view.SetText(buff);
     }
 }

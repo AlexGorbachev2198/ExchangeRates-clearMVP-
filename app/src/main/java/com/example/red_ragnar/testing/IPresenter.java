@@ -26,4 +26,6 @@ public interface IPresenter {
     void ToButtonClick();
 
     void ChangeViewRates();
+
+    void OnViewCreate();
 }
