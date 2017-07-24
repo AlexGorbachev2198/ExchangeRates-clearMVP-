@@ -186,8 +186,8 @@ public class RetrofitRestService implements RestService {
         if (serverAddress.isEmpty()) {
             //serverAddress = ApplicationPropertiesProvider.getServerAddress();
             //SharedPreferencesHelper.setServerAddress(serverAddress);
-            serverAddress = "https://t5-web-test2.bt.bpc.in:7002/agencybank/service/";
-             //serverAddress = "https://10.7.4.20:7002/mobilebank/service/";
+            //serverAddress = "https://t5-web-test2.bt.bpc.in:7002/agencybank/service/";
+            serverAddress = "https://10.7.4.20:7002/mobilebank/service/";
             // serverAddress = "https://raw.githubusercontent.com/AlexGorbachev2198/forFiles/master/rates.json/";
 
         }

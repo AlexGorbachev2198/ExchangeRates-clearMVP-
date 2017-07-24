@@ -22,6 +22,7 @@ public class Presenter implements IPresenter {
     List<RateInformation> _rsp;
 
     public Map makeAMap(String rates) {
+        _rsp = _model.get_data();
         Map data = new HashMap<String, String>();
         for (int i = 0; i < _rsp.size(); i++) {
             if (_rsp.get(i).getName() == rates) {
@@ -108,12 +109,11 @@ public class Presenter implements IPresenter {
 
     public void OnViewCreate() {
         String buff = "";
-        if(GetSuccess()){
+        if (GetSuccess()) {
             for (int i = 0; i < _rsp.size(); i++) {
                 buff += _rsp.get(i).getName() + " " + _rsp.get(i).getBase() + " " + _rsp.get(i).getBuy() + " " + _rsp.get(i).getSell() + "\n";
             }
-        }
-        else buff = "Error: Connection failure";
+        } else buff = "Error: Connection failure";
         _view.SetText(buff);
     }
 }
